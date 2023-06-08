@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style_form.css" />
+    <title>Order bread</title>
+  </head>
+  <body>
+    <div class="form-page">
+      <div class="form-picture">
+        <form name="fmain" action="#" method="get" id="idForm" onsubmit="reset()">
+          <div class="field-name">
+            <input
+              type="text"
+              class="text_input_field_name"
+              id="idName"
+              placeholder="Name"
+              name="nameInput"
+            />
+          </div>
+          <div class="field-surname">
+            <input
+              type="text"
+              class="text_input_field_surname"
+              id="idSurname"
+              placeholder="Surname"
+              name="surname"
+            />
+          </div>
+          <div class="field_number_phone">
+            <input
+              type="tel"
+              class="text_input_field_number_phone"
+              id="idNumber_phone"
+              placeholder="Number phone"
+              name="phone"
+            />
+          </div>
+          <div class="field-email">
+            <input
+              class="text_input_field_email"
+              type="text"
+              id="idEmail"
+              placeholder="Email"
+              name="email"
+            />
+          </div>
+          <div class="field-adress">
+            <input
+              type="text"
+              class="text_input_field_adress"
+              id="idAdress"
+              placeholder="Adress and eir code"
+              name="adress"
+            />
+          </div>
+          <div class="field-choose-bread">
+            <select name="bread">
+              <option value="white_bread">white bread</option>
+              <option value="wheat_bread">wheat bread</option>
+              <option value="Whole_grain_bread">Whole grain bread</option>
+              <option value="Rye_bread">Rye bread</option>
+              <option value="Bagel">Bagel</option>
+            </select>
+            <p>Amount of bread</p>
+            <input type="text" class="quality_bread" id="idQuantity" />
+          </div>
+          <div class="field-button">
+            <button class="button_field" type="submit" id="idButton" disabled>Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="js/script_form.js"></script>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+}
+.form-picture {
+  background-image: url("./img_form/form-picture.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.field-name{
+  text-align: center;
+  padding: 50px;
+}
+.text_input_field_name{
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  width: 300px;
+  height:25px; 
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px 5px 5px 5px;
+}
+.field-surname{
+  text-align: center;
+  padding:30px;
+}
+.text_input_field_surname{
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  width: 300px;
+  height:25px; 
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px 5px 5px 5px;
+}
+.field_number_phone{
+  text-align: center;
+  padding: 30px;
+}
+.text_input_field_number_phone{
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  width: 300px;
+  height:25px; 
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px 5px 5px 5px;
+}
+.field-email{
+  text-align: center;
+  padding:30px;
+}
+.text_input_field_email{
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  width: 300px;
+  height:25px; 
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px 5px 5px 5px;
+}
+.field-email{
+  text-align: center;
+  padding: 30px;
+}
+.text_input_field_email{
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  width: 300px;
+  height:25px; 
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px 5px 5px 5px;
+}
+.field-adress{
+  text-align: center;
+  padding: 30px;
+}
+input::-webkit-input-placeholder{
+  font-size: 16px;
+  color: white;
+}
+:focus::-webkit-input-placeholder{
+  color: transparent;
+}
+.text_input_field_adress{
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  width: 300px;
+  height:25px; 
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px 5px 5px 5px;
+}
+ .field-choose-bread {
+  text-align: center;
+  padding: 5px;
+}
+.field-choose-bread select {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 200px;
+  height: 30px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 30px;
+  text-align: center;
+}
+.field-choose-bread option {
+  background-color: transparent;
+}
+.field-choose-bread p {
+  font-size: 18px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.quality_bread {
+  width: 50px;
+  height: 25px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.field-button {
+  text-align: center;
+  padding: 10px;
+}
+.button_field {
+  width: 200px;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 30px;
+  color: black;
+  background-color: transparent;
+  font-size: 16px;
+}
+.button_field:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}  
